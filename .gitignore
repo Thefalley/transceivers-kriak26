@@ -1,0 +1,64 @@
+# Vivado Project Files
+*.xpr
+*.xpr.backup
+*.jou
+*.log
+*.str
+*.zip
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.srcs/
+*.data/
+*.sdk/
+
+# Checkpoints (DCP files are large and regenerable)
+*.dcp
+checkpoints/*.dcp
+
+# IP Repository
+ip_repo/
+*.xci
+*.xcix
+
+# Bitstreams
+*.bit
+*.bin
+*.mcs
+*.prm
+
+# Reports
+*.rpt
+*.pb
+*.twr
+*.twx
+
+# Simulation
+*.vcd
+*.wdb
+*.wcfg
+
+# Temporary files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Build artifacts
+*.log
+*.jou
+
+# Vivado project directories
+kria_k26_gty_loopback/
+vivado_project/
+
+# Backup files
+*.bak
+*.backup
+
+# OS specific
+Thumbs.db
+.DS_Store
+
